@@ -21,6 +21,7 @@ console.log(80 != 79); //true
 console.log(50 == "50"); //true
 console.log(80 != "80"); //false
 console.log(50 === "50"); //false
+console.log(50 === 50); 
 console.log(80 !== "80"); //true
 console.log(80 != 80); //false
 
