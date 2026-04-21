@@ -5,7 +5,7 @@
 const fruits = ["apple", "kiwi", "durian", "mango", "orange"];
 console.log(fruits.length);
 
-// Using length,can you write a loop to putput all the fruits?
+// Using length,can you write a loop to output all the fruits?
 for (var i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }

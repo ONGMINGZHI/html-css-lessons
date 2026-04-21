@@ -4,14 +4,40 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>JavaScript HTML File</title>
-        <script src="block-scoping.js"></script>
         <style>
-            body{
-                background-color: black;
-            }
+           .my-class{
+            font: size 24px;
+            color: red;
+           }
         </style>
     </head>
     <body>
-<h1>hi</h1>
+        <!-- 
+            Array is iterative 连续的 exp:1,2,3,4... 
+            Object is determined by key and value
+        -->
+        <!-- 
+            Id use getElement because id is unique and is singular
+            class use getElements because same class can be used for many and its plural
+        -->
+        <div id="my-element">
+            Inside the div with ID my-element
+        </div>
+        <div class="my-class">
+            Inside the div with class my-class
+        </div>
+        <div class="my-class">
+            Inside the ANOTHER div with class my-class
+        </div>
+        <p>This is a paragraph text.</p>
+        <!-- <script>
+            let element = document.getElementById("my-element")//Output:null
+            let element = document.getElementsByClassName("my-class")
+            let element = document.getElementsByTagName("p");
+            let element = document.querySelector(".my-class")
+            let element = document.querySelectorAll(".my-class")
+            console.log(element);
+</script>  -->
+        <script src="dom-manipulation.js"></script>
     </body>
 </html>
