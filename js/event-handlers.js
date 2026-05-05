@@ -41,8 +41,8 @@ myInput.addEventListener("change", function (event) {
 });
 
 // getElementById method            vs       addEventListener method 
-//have on... (onclick)       |            does not have on.... 
-//use =function     |           does not have =function 
+//have on... (onclick)               |            does not have on.... 
+//use =function                      |           does not have =function 
 
 myInput.onkeydown=function(event){
     console.log(event.key)
